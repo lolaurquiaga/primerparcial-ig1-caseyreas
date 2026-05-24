@@ -1,9 +1,12 @@
 /*Estilos para la página de Casey Reas*/
+/*tipografía Arvo desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+
 
 /*Estilos generales*/
 body {
     font-family: Arial, sans-serif;
-    font-color: #ffffff;
+    color: #ffffff;
     margin: 0;
     padding: 0;
     background-image: url('../img/fondo.png');
@@ -16,8 +19,92 @@ body {
     padding: 20px;
 }
 
-/*Estilos para el menu de navegación*/
-nav {
+/* Encabezado */
+header {
     background-color: #191919;
-    overflow: hidden;
+    padding: 10px;
+    text-align: center; 
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #ffffff;
+    font-family: 'Arvo', serif; 
+}
+
+/* Menú de navegación */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+    font-family: 'Arvo', serif; 
+}
+
+nav ul li a:hover {
+    background-color: #333333;
+    border-radius: 4px;
+}
+
+/* Contenido principal */
+main {
+    margin-top: 20px;
+}
+
+h2, h3 {
+    color: #ffcc00;
+    font-family: 'Arvo', serif;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Galería de obras */
+figure {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+figcaption {
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #cccccc;
+}
+
+/* Pie de página */
+footer {
+    background-color: #191919;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-family: 'Arvo', serif;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
