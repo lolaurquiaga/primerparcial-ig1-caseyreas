@@ -1,0 +1,23 @@
+/*Estilos para la página de Casey Reas*/
+
+/*Estilos generales*/
+body {
+    font-family: Arial, sans-serif;
+    font-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/fondo.png');
+    background-repeat: repeat;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(77, 71, 71, 0.9);
+    padding: 20px;
+}
+
+/*Estilos para el menu de navegación*/
+nav {
+    background-color: #191919;
+    overflow: hidden;
+}
