@@ -84,11 +84,18 @@ img {
     border-radius: 5px;
 }
 
-.img-index {           /*le agrego estilos específicos para la imagen del index, para que se vea más grande y centrada*/
-    display: block;
-    justify-content: center;      
+.img-index {           /*quiero centrar la imagen del index*/
+    display: block;      
     margin: 0 auto;       
     max-width: 100%;      
+    height: auto;
+}
+
+/*video*/
+.video {
+    display: block;
+    margin: 20px auto; 
+    max-width: 100%;
     height: auto;
 }
 
