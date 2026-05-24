@@ -78,7 +78,6 @@ p {
 /* Imágenes */
 img {
     display: block;
-    justify-content: center;
     max-width: 100%;
     height: auto;
     border-radius: 5px;
