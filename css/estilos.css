@@ -75,15 +75,9 @@ p {
     text-align: center; /*para que el texto se vea centrado*/
 }
 
-/* Imágenes */
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
 
-.img-index {           /*quiero centrar la imagen del index*/
+ /*Quiero centrar la imagen del index*/
+.img-index {          
     display: block;      
     margin: 0 auto;       
     max-width: 100%;      
