@@ -47,13 +47,13 @@ nav ul li a {
     text-decoration: none;
     color: #ffffff;
     padding: 5px 10px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s; /*me gusta que el menú responda al hover*/
     font-family: 'Arvo', serif; 
 }
 
 nav ul li a:hover {
     background-color: #333333;
-    border-radius: 4px;
+    border-radius: 4px; /*para que el hover se vea más suave, fue idea de copilot*/
 }
 
 /* Contenido principal */
@@ -62,16 +62,23 @@ main {
 }
 
 h2, h3 {
-    color: #ffcc00;
+    color: #fceba5;
     font-family: 'Arvo', serif;
+    display: block;
+    text-align: center;
 }
+/*me falta que el h2 de obra destacada se vea sobre las imágenes, revisar*/
+
 
 p {
-    line-height: 1.6;
+    line-height: 1.6; /*que se lean mejor los párrafos*/
+    text-align: center; /*para que el texto se vea más ordenado*/
 }
 
 /* Imágenes */
 img {
+    display: block;
+    justify-content: center;
     max-width: 100%;
     height: auto;
     border-radius: 5px;
@@ -79,7 +86,7 @@ img {
 
 /* Galería de obras */
 .galeria {
-    list-style-type: none; /*quiero que no se vean las viñetas de la lista*/
+    list-style: none; /*quiero que no se vean las viñetas de la lista*/
     margin: 0;
     padding: 0;
     display: flex;              
@@ -91,11 +98,6 @@ img {
     display: inline-block; /*no se esta aplicando, revisar*/
 }
 
-section {
-    display: flex;              
-    justify-content: center;    
-    gap: 20px;                              
-}
 
 .obra-img {
     width: 250px;               
@@ -105,7 +107,7 @@ section {
 }
 
 .obra-img:hover {
-    transform: scale(1.1);      /* efecto de agrandamiento */
+    transform: scale(1.1);  /* efecto de agrandamiento */
 }
 
 
@@ -119,7 +121,7 @@ footer {
 }
 
 footer a {
-    color: #ffcc00;
+    color: #ebdfb1;
     text-decoration: none;
     font-family: 'Arvo', serif;
 }
