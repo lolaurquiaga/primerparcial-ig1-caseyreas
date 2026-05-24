@@ -78,17 +78,36 @@ img {
 }
 
 /* Galería de obras */
-figure {
-    display: inline-block;
-    margin: 10px;
-    text-align: center;
+.galeria {
+    list-style-type: none; /*quiero que no se vean las viñetas de la lista*/
+    margin: 0;
+    padding: 0;
+    display: flex;              
+    justify-content: center;    
+    gap: 20px;                              
 }
 
-figcaption {
-    margin-top: 5px;
-    font-size: 0.9em;
-    color: #cccccc;
+.galeria li {
+    display: inline-block; /*no se esta aplicando, revisar*/
 }
+
+section {
+    display: flex;              
+    justify-content: center;    
+    gap: 20px;                              
+}
+
+.obra-img {
+    width: 250px;               
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s ease; /*quería que la galería respondiera al hover*/
+}
+
+.obra-img:hover {
+    transform: scale(1.1);      /* efecto de agrandamiento */
+}
+
 
 /* Pie de página */
 footer {
